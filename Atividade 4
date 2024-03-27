@@ -1,0 +1,17 @@
+Array Associativo 
+
+<?php
+$informacoes = [
+    "Nome" => "Maria",
+    "Idade" => "30 anos", 
+    "Profissao" => "Diretora", 
+    "Cidade" => "Campinas"
+    ];
+    
+$chaveinformacoes = array_keys($informacoes); 
+    for($i = 0; $i< count($chaveinformacoes); $i++){
+    $chaveinformacoes[$i];
+        echo  " {$chaveinformacoes[$i]} {$informacoes[$chaveinformacoes[$i]]}\n";
+       
+    }
+?>
